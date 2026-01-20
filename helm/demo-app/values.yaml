@@ -3,7 +3,8 @@ image:
   repository: delcomponentizationregistry.azurecr.io/alertprocessor
   pullPolicy: IfNotPresent
   tag: "1.0.59"
-imagePullSecrets: dockerpull
+imagePullSecrets: 
+  - name: dockerpull
 nameOverride: ""
 fullnameOverride: ""
 serviceAccount:
