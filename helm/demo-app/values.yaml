@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: vishnups26/demo-app
+  repository: ngnix
   pullPolicy: IfNotPresent
   tag: "latest"
 imagePullSecrets: []
