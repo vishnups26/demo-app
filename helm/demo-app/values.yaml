@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: ngnix
+  repository: gcr.io/google-containers/nginx
   pullPolicy: IfNotPresent
   tag: "1.25.3"
 imagePullSecrets: []
